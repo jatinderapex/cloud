@@ -1,0 +1,11 @@
+<url>
+	<loc>http://apexure.com{{site.baseurl}}{{include.entry.url}}</loc>
+	  {% if include.entry.changefreq %}
+	     <changefreq>{{inlude.entry.changefreq}}</changefreq>
+	  {% endif%}
+       
+       {% if include.entry.priority %}
+	     <priority>{{inlude.entry.changefreq}}</priority>
+	   {% endif%}
+	   
+</url>
